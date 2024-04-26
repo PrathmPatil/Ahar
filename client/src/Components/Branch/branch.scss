@@ -1,0 +1,47 @@
+.columnHeader .ant-table-cell {
+  padding: 10px 10px !important;
+}
+
+.ant-table-thead {
+  min-width: auto;
+  overflow-x: scroll;
+}
+.ant-table-thead .ant-table-cell {
+  background: #001529 !important;
+  color: white !important;
+}
+.ant-table-container {
+  overflow: hidden;
+  overflow-x: scroll;
+}
+/* CSS */
+.custom-table {
+  width: 100%;
+}
+.ant-table-cell {
+  min-width: 170px;
+}
+
+.custom-table .ant-table-thead th {
+  white-space: nowrap;
+}
+
+.custom-table .ant-table-tbody td {
+  white-space: nowrap;
+}
+
+.custom-table .ant-table-column-title {
+  font-weight: bold;
+}
+
+.custom-table .ant-table-thead th.ant-table-column-name {
+  width: 200px;
+}
+
+.custom-table .ant-table-column-location {
+  width: 150px;
+}
+.error{
+  color: red;
+  margin-bottom: 0px;
+}

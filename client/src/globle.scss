@@ -1,0 +1,57 @@
+.addinput {
+  width: 65% !important;
+  height: 32px;
+}
+.submit {
+  background: #001529;
+  color: #ffffff;
+  margin-left: 10px;
+  width: 75px;
+}
+/* Style the scrollbar thumb */
+.ant-layout::-webkit-scrollbar-thumb {
+  width: 4px;
+  background-color: #001529;
+}
+
+/* Style the scrollbar track */
+.ant-layout::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Choose a suitable background color */
+}
+
+/* Style the scrollbar itself */
+.ant-layout::-webkit-scrollbar {
+  width: 8px; /* Choose a suitable width */
+  background-color: #f0f0f0; /* Match the background color of the scrollbar track */
+  border-radius: 4px; /* Optional: Add rounded corners */
+}
+.isSrNo .ant-table-thead tr :first-child{
+  min-width: 100px;
+
+}
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-btn-default:not(
+    :disabled
+  ):not(.ant-btn-disabled):hover {
+  color: #ffffff;
+  // border-color: #4096ff;
+  background: #001529;
+}
+.overflowEllipsis {
+  overflow: "hidden";
+  white-space: "nowrap";
+  text-overflow: "ellipsis";
+}
+.header-child{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+}
+.searchIcon{
+  color: black;
+  margin:2px 20px;
+  font-size: 20px;
+}
+.ant-picker{
+  margin: 10px 0px;
+}
